@@ -1,10 +1,14 @@
 import { useState } from 'react'
 import './App.css'
+import ToDoItem from './components/ToDoItem'
 
 function App() {
   return (
     <>
-      <h1>Week one</h1>
+      <ToDoItem 
+      text='Programmera' 
+      important={true}
+      />
     </>
   )
 }
